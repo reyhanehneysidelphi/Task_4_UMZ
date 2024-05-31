@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<style>
+    table{
+            border-collapse: collapse;
+        }
+    th, td{
+        border: 1xp solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    table, th, td{
+        border: 2px solid black;
+    }
+    th{
+        background-color: beige;
+    }
+    td{
+        background-color: azure;
+    }
+    span{
+        font-size: 1rem;
+        color: black;
+        margin-bottom: 1rem;
+    }
+    hr{
+    border-width: 3px;
+}
+</style>
+<body>
+<table>
+    <tr>
+    <th class="q">Name:</th>
+    <td class="a">{{ mymember.name }}</td>
+</tr>
+<tr>
+    <th class="q">Email:</th>
+    <td class="a">{{ mymember.email}}</td>
+</tr>
+<tr>
+    <th class="q">Summary:</th>
+    <td class="a">{{ mymember.summary}}</td>
+</tr>
+<tr>
+    <th class="q">Experience:</th>
+    <td class="a">{{ mymember.experience}}</td>
+</tr>
+<tr>
+    <th class="q">Education:</th>
+    <td class="a">{{ mymember.education}}</td>
+</tr>
+<tr>
+    <th class="q">Skills:</th>
+    <td class="a">{{ mymember.skills}}</td>
+</tr>
+<tr>
+    <th class="q">Phone:</th>
+    <td class="a">{{ mymember.phone}}</td>
+</tr> 
+</table>
+</body>
+</html>
